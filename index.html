@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Project_2</title>
+	<link rel="stylesheet" href="assest/css/style.css">
+
+	
+	<!-- Nav Bar pulgin-->
+	<link rel="stylesheet" href="assest/css/fab.css">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+	<script src="assest/js/fab.js"></script>
+	
+	<!-- Simple Popup window pulgin-->
+	<link rel="stylesheet" href="assest/css/jquery.popup.css" type="text/css">
+	<script src="http://code.jquery.com/jquery-1.12.4.js"></script>
+	<script type="text/javascript" src="assest/js/jquery.popup.js"></script>
+	
+	<!-- animation scroll pulgin-->
+	<script type="text/javascript" src="assest/js/EaselPlugin.js"></script>
+	<script type="text/javascript" src="assest/js/TweenMax.js"></script>
+	<script type="text/javascript" src="assest/js/ScrollToPlugin.js"></script>
+	<script type="text/javascript" src="assest/js/animate-scroll.js"></script>
+	
+	<!-- fafa awesome icon pulgin-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+	<!-- jquery basic pulgin-->
+	<script src="assest/js/jquery-ui.min.js"></script>
+	<link rel="stylesheet" href="assest/css/jquery-ui.min.css">
+</head>
+<body>
+	
+	<!-- This is header part-->
+	<div id="main">
+	<header>R.I.T <span class="header_text">Rochester Institute of Technology</span></header>
+	<div id = "myHeader">
+		<h1 class="text-uppercase" data-animate-scroll='{"scaleX": "1.2","scaleY": "1.2", "alpha": "0", "duration": ".5"}'>
+            <strong><span class="color">INFORMATION</span> SCIENCES & TECHNOLOGIES @ RIT</strong>
+        </h1>
+		<p>Scroll down to navigate</p>
+		<p class = "moveDown"><i class="far fa-2x fa-hand-point-down"></i></p>
+	</div>
+	
+	<!-- This is nav bar-->
+	<div id="cont"></div>
+	
+	<!-- This is about content-->
+	<div id="about" data-animate-scroll='{"x": "-300", 
+                    "y": "-200", 
+                    "scaleX": "0.45",
+                    "scaleY": "0.45", 
+                    "alpha": "0", 
+                    "duration": "2",
+                    "rotationY":"360",
+                    "rotationX":"45",
+                    "rotation":"45"}'></div>
+	</div>
+	
+	
+	<!-- This is undergraduate content-->
+	<div id="content1">
+		<div id="underHeader"></div>
+		<div class="undergraduate" id="under1" ></div>
+		<div class="undergraduate" id="under2" ></div>
+		<div class="undergraduate" id="under3" ></div>
+	</div>
+	
+	<!-- This is graduate content-->
+	<div id="main2">
+		<div id="content2">
+			<div id="graHeader"></div>
+			<div class="graduate" id="gra1"></div>
+			<div class="graduate" id="gra2"></div>
+			<div class="graduate" id="gra3"></div>
+		</div>
+	</div>
+	
+	<!-- This is minors content-->
+	<div id="content3"><div id="minorHeader"></div></div>
+	
+	
+	<div id="content4"></div>
+	
+	<div id="content5">
+		<h2>Where Our Students Work</h2>
+		<p>Click a marker to learn more about the jobs at that location</p>
+		<div id="map-div">	
+		<iframe id="map-iframe"
+			src="http://ist.rit.edu/api/map.php"
+			width="100%" scrolling="no" height="600px">
+			<p>Your browser does not support showing the Contact Form.
+			You are using an old browser, get a new browser and try again.</p>
+		</iframe>
+		</div>
+		<p class="c5pTag">To view employment and coop history of our students, click below.</p>
+	</div>
+	
+	<div id="content6">
+		<h2>Our People</h2>
+		<p>To view more about our faculty and staff, click below.</p>
+		<div id="tabs">
+			<ul>
+				<li id="l1"><a href="#tabs-1">FACULTY</a></li>
+				<li id="l2"><a href="#tabs-2">STAFF</a></li>
+			</ul>
+		</div>
+	</div>
+	
+	<div id="content7"></div>
+	<div id="content8"></div>
+	<div id="content9"></div>
+	<div id="content10">
+
+	</div>
+
+</body>
+	<script src="assest/js/javascript.js"></script>
+</html>
